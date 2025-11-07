@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bible Encourager</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #102030; color: white; text-align: center; padding: 40px; }
+    button { background: #ffb703; border: none; padding: 12px 24px; border-radius: 8px; font-size: 18px; margin-top: 20px; }
+    .box { margin-top: 40px; font-size: 20px; line-height: 1.4; }
+  </style>
+</head>
+<body>
+
+  <h1>💗 Bible Encourager 💗</h1>
+  <p>Tap the button to receive a Bible verse</p>
+
+  <div class="box" id="verse">May God's word strengthen you today.</div>
+
+  <button onclick="showVerse()">Tap for a Verse ✨</button>
+
+<script>
+  const verses = [
+    "Philippians 4:13 — I can do all things through Christ who strengthens me.",
+    "Joshua 1:9 — Be strong and courageous. The Lord your God is with you.",
+    "Psalm 46:5 — God is within her, she will not fall.",
+    "Isaiah 41:10 — Fear not, for I am with you.",
+    "Jeremiah 29:11 — For I know the plans I have for you, declares the Lord.",
+    "Psalm 23:1 — The Lord is my Shepherd, I shall not want.",
+    "Romans 8:28 — All things work together for good to those who love God.",
+    "Isaiah 40:31 — Those who hope in the Lord will renew their strength.",
+    "Psalm 34:17 — The Lord hears His people when they call to Him for help.",
+    "Proverbs 3:5 — Trust in the Lord with all your heart.",
+    "Matthew 10:33 — Whoever denies me before men, I will also deny before my Father in heaven."
+  ];
+
+  function show Verse() {
+    const verse = verses[Math.floor(Math.random() * verses.length)];
+    document.getElementById("verse").innerText = verse;
+  }
+</script>
+
+</body>
+</html>

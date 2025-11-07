@@ -1,1 +1,0 @@
-# Bible-encourager-by-Rhoda-
